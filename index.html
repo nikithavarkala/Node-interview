@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Node</title>
+</head>
+<body>
+    <h3>1)what is node js? what is open source cross platform?</h3>
+    <pre>
+•	Node.js is an open-source, server-side JavaScript runtime environment that allows developers to build and execute JavaScript code outside of a web browser.
+•	It enables the execution of JavaScript on the server.
+•	Node.js is commonly used for building web servers, APIs (Application Programming Interfaces), real-time applications (such as chat applications or collaborative tools).
+•	It made ability to use JavaScript on both the client and server sides, simplifying development and reducing the learning curve for web developers.
+•	Node.js is an open source server environment
+    </pre>
+<h3>2)what is blocking vs non blocking?</h3>
+    <pre>
+In blocking I/O, when an I/O operation is requested, the application waits for the operation to complete before moving on to the next task. 
+During this waiting period, the entire application is blocked, and it cannot execute other tasks or handle new requests until the I/O operation is finished.
+In non-blocking I/O, when an I/O operation is requested, the application continues to execute other tasks or handle new requests without waiting for the I/O operation to complete.
+    </pre>
+<h3>3)what is NPM?</h3>
+   <pre>
+•	NPM stands for Node Package Manager, responsible for managing all the packages and modules for Node.js.
+•	 It is the default package manager for Node.js, a JavaScript runtime environment. 
+•	NPM allows developers to discover, install, and manage various packages and modules written in JavaScript. 
+•	These packages can contain reusable code, libraries, tools, and other assets that can be easily integrated into Node.js projects.
+   </pre>
+<h3>4)what are the modules in Node.js?</h3>
+    <pre>
+Modules are like JavaScript libraries that can be used in a Node.js application to include a set of functions. 
+To include a module in a Node.js application, use the require() function with the parentheses containing the module's name.</pre>
+
+<h3>5)What is Export,Import,Require Keyword?</h3>
+    <pre>
+In Node.js, the keywords "export," "import," and "require" are used to manage modules, which are reusable
+blocks of code that can be imported and used in other parts of your application.
+
+export:
+The export keyword is used to expose functions, objects, or variables from a module so that they can be used in other parts of the application.
+There are several ways to use export:
+a) Named Exports
+b)Default Exports
+    </pre>
+
+<h3>6)what is the purpose of module.exports?</h3>
+    <pre>
+When you create a local module in Node.js (a module that you define within your application), any variables, functions, 
+or objects you declare within that module's file are by default private to that module. In other words, 
+they are not accessible from other parts of your application unless you explicitly export them using module.exports.
+    </pre>
+<h3>7)Differnece between default export and named export?</h3>
+    <pre>
+The main difference between default export and named export lies in how you export and import modules in JavaScript.
+
+Default Export:
+1.With default export, you can only have one default export per module.
+2.When you use the default export, you do not need to use curly braces {} while importing the module.
+3.The default export is used when you want to export a single function, class, or object as the primary value of the module.
+4.You can give any name to the default export when importing it, making it more flexible.
+
+Named Export:
+.With named export, you can export multiple functions, classes, or objects from a single module.
+2.When using named export, you must use curly braces {} with the appropriate names while importing the module.
+3.Named exports are used when you want to export multiple values from a module.
+    </pre>
+8)How do you import a file in Nodejs?
+    <pre>
+In Node.js, you can import a module using the require function for CommonJS modules or the import statement.
+The method you use depends on the module system being used and the version of Node.js you are working with.
+    </pre>
+
+<h3>9)Difference between HTTP and HTTPS?</h3>
+    <pre>
+Security-Http is Not secure (plain text transmission)	whereas https Secure (data is encrypted during transmission)
+URL-Http Scheme	Starts with "http://"	Whereas Https Starts with "https://"
+Http Default Port	80	wheraes Https Default Port443
+HTTP is not secure and transmits data in plain text, while HTTPS is secure and encrypts data during transmission. 
+HTTPS requires an SSL/TLS certificate, and browsers display security indicators for HTTPS websites.
+    </pre>
+
+<h3>10)What is Express,how it helps to create a backend application,adavantages of using express?</h3>
+    <pre>
+express is a framework that adds more functionality than node to our app.we can use this framework in our app.it has functionalities like cors,cookieparser and much more.
+advantages-routing,middleware.
+    </pre>
+<h3>11)What are different types of HTTP requests?</h3>
+    <pre>
+there are four types of HTTP requests 
+1)GET-we can read the data 
+2)POST-we can create the data 
+3)PUT-we can update the data 
+4)DELETE-we can delete the data.
+    </pre>
+</body>
+</html>
